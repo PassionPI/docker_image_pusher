@@ -42,3 +42,7 @@ registry:2.8.3
 # AI
 ghcr.io/open-webui/open-webui:main
 ollama/ollama:0.3.0
+
+# tool
+linuxserver/qbittorrent:4.6.5
+
