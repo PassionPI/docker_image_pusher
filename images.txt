@@ -8,12 +8,14 @@
 # nginx:1.27.0-alpine-slim
 
 # dev
-# golang:1.23.0-alpine
+golang:1.24-alpine
+golang:1.24-bookworm
 # node:22.4.0-alpine3.20
-node:24.0-bookworm-slim
+# node:24.0-bookworm-slim
 # python:3.9.19-slim
-# denoland/deno:alpine-2.0.0
-# rust:1.81.0-slim
+denoland/deno:debian-2.3.3
+denoland/deno:alpine-2.3.3
+rust:1.87-slim-bookworm
 
 
 # env
@@ -24,11 +26,11 @@ node:24.0-bookworm-slim
 # server
 # nginx:1.27-alpine
 # mysql:9.0.0
-# mongo:7.0.12
+mongo:8.0
 
 # postgres:16.3-alpine3.20
 
-# rabbitmq:3.13-management-alpine
+rabbitmq:4.1-management-alpine
 # redis:7.2.5-alpine3.20
 
 # ES
